@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.description {
+  margin: 1rem;
+}
+
+.game {
+  width: 80vw;
+}

@@ -1,0 +1,29 @@
+.card {
+  width: 100%;
+  height: 100%;
+
+  background: #d9d9d9;
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #575151;
+}
+
+.value {
+  flex: 1;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  color: #575151;
+}

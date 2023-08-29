@@ -1,0 +1,22 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto 0 auto;
+
+  @media all and (display-mode: fullscreen) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.board {
+  display: flex;
+  margin-top: 4px;
+}
+
+.canvas {
+  flex: 1;
+  border-radius: 4px;
+}
